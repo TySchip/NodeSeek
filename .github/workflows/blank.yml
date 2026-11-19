@@ -6,6 +6,7 @@ on:
       - main
   schedule:
     - cron: '00 20 * * *'  # 北京时间 04:00 (UTC+8)，对应UTC时间 20:00
+    - cron: '17 20 * * *'  # Back-up: Beijing 04:17
   workflow_dispatch:
 
 permissions:
